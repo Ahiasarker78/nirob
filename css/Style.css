@@ -1,0 +1,54 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.manu{
+    background-color: blueviolet;
+     padding: 20px 40px; text-align: center; display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;color: aliceblue;
+}
+.manu a{
+    border: 2px solid cadetblue;
+    font-size: 18px; color: azure; margin-right: 10px;
+    text-decoration: none; padding: 5px 15px;
+} 
+.manu a:hover{
+    background-color: transparent; 
+border-radius: 15px; font-weight: 600;
+}
+
+
+.hero{
+    background-color: orangered;
+     padding: 250px 100px; text-align: center; 
+}
+
+.name{
+    font-family: Arial, Helvetica, sans-serif;font-size: 40px; color: aliceblue;
+}
+.designation{
+    font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 30px; color: aqua;
+padding-top: 10px;
+}
+
+.para{
+    font-family: Arial, Helvetica, sans-serif; font-size: 16px; color:aliceblue;
+    padding-top: 10px;padding-bottom: 20px;
+
+}
+
+.hero-btn{
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 20px; color: blueviolet; padding-top: 10px;
+    border: 2px solid cornsilk; padding: 5px 15px; text-decoration: none;
+    background-color: aliceblue;
+}
+.hero-btn:hover{
+    background-color: transparent; border-radius: 10px; font-weight: 600;
+}
